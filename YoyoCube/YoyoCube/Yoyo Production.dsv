@@ -1,0 +1,124 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f29148ce-1f56-4a15-abfb-064b711e8c2e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Yoyo Production</ID>
+  <Name>Yoyo Production</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Yoyo Production</DataSourceID>
+  <Schema>
+    <xs:schema id="Yoyo_x0020_Production" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Yoyo_x0020_Production" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9c2a00db-4923-422e-8cd4-b98b53ea2b18">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Production" msprop:design-time-name="837b2179-d4b1-4d56-8c10-9054d7541b31" msprop:DbTableName="Production" msprop:FriendlyName="Production" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pProductionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="04534e56-26dc-4aef-a130-4c209ea5922d" msprop:DbColumnName="pProductionID" msprop:FriendlyName="pProductionID" type="xs:long" />
+                  <xs:element name="pWorkArea" msprop:design-time-name="63b1a3cb-3d86-47f0-a679-cc15b4535efd" msprop:DbColumnName="pWorkArea" msprop:FriendlyName="pWorkArea" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pSerialNumber" msprop:design-time-name="d839c612-fa88-4155-b496-0d0ceea700bb" msprop:DbColumnName="pSerialNumber" msprop:FriendlyName="pSerialNumber" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pLine" msprop:design-time-name="d9cf34b1-2465-4008-8ad5-d26c87ccd5b9" msprop:DbColumnName="pLine" msprop:FriendlyName="pLine" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pState" msprop:design-time-name="a69850a4-4b37-4981-a601-eae28ee83fa4" msprop:DbColumnName="pState" msprop:FriendlyName="pState" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pReason" msprop:design-time-name="5b2db98e-8c0c-4f8c-a8fd-ae7c66d7c7ab" msprop:DbColumnName="pReason" msprop:FriendlyName="pReason" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pDateTime" msprop:design-time-name="a67cc7f4-6e48-41d3-8cae-f1e7d538aa8d" msprop:DbColumnName="pDateTime" msprop:FriendlyName="pDateTime" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="pProductID" msprop:design-time-name="f6aa86c1-cd6d-4d93-b091-9d276b1e7009" msprop:DbColumnName="pProductID" msprop:FriendlyName="pProductID" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Products" msprop:design-time-name="3421707c-6a10-43e0-817e-3464ec37f108" msprop:DbTableName="Products" msprop:FriendlyName="Products" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pProductID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="fdf46c96-0606-4abf-be52-fe35639d6b17" msprop:DbColumnName="pProductID" msprop:FriendlyName="pProductID" type="xs:int" />
+                  <xs:element name="pProductName" msprop:design-time-name="3e659f73-0e96-4020-90c0-15b0976aba42" msprop:DbColumnName="pProductName" msprop:FriendlyName="pProductName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Production" />
+          <xs:field xpath="pProductionID" />
+        </xs:unique>
+        <xs:unique name="dbo_Products_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Products" />
+          <xs:field xpath="pProductID" />
+        </xs:unique>
+        <xs:keyref name="FK__Productio__pProd__25869641" refer="dbo_Products_Constraint1">
+          <xs:selector xpath=".//dbo_Production" />
+          <xs:field xpath="pProductID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Yoyo_x0020_Production xmlns="" />
+  </Schema>
+</DataSourceView>

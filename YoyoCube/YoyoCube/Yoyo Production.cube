@@ -1,0 +1,235 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e0096fae-410a-4ac9-bb74-1e02d3c2fa4f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Yoyo Production</ID>
+  <Name>Yoyo Production</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="33396eed-0207-4b93-93b0-e3036b999fe7">
+      <ID>State</ID>
+      <Name>State</Name>
+      <DimensionID>State</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="05b00375-989a-4cc3-9459-6ae47eee8b65">
+          <AttributeID>p Production ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="01446cbc-2294-49f5-aced-f49528e76765">
+          <AttributeID>p State</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ea47a69a-ad4c-4e40-b68b-4cb28b02d732">
+      <ID>Reason</ID>
+      <Name>Reason</Name>
+      <DimensionID>Reason</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b1d65cb7-3268-4e77-8958-599d9b3d0b7c">
+          <AttributeID>p Production ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d61db75e-8758-46ea-8bd6-05d2f1a5aa64">
+          <AttributeID>p Reason</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="328b70fe-0d1a-44f2-971a-43d49852efa2">
+      <ID>Work Area</ID>
+      <Name>Work Area</Name>
+      <DimensionID>Work Area</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b7de84a6-31fe-464a-96b8-84016ffc5529">
+          <AttributeID>p Production ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c43e94f-1c45-4f4d-b72d-622ddcfe9ca5">
+          <AttributeID>p Work Area</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ec9df271-60b6-4f43-8c8f-caef4578af40">
+      <ID>Line</ID>
+      <Name>Line</Name>
+      <DimensionID>Line</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="abfdc06b-b1bb-4ee9-9b40-c0a2ea2cc822">
+          <AttributeID>p Production ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4c0f9fa-f20c-4807-bdf7-37bad98feacb">
+          <AttributeID>p Line</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a634fb22-b293-4744-aa3c-cbfe6675e06b">
+      <ID>Product Description</ID>
+      <Name>Product Description</Name>
+      <DimensionID>Product Description</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e188889e-3546-4e8b-b80f-5bef3babc7b3">
+          <AttributeID>p Product ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="08a73a55-3506-4717-93ef-a79c97c12cc6">
+          <AttributeID>p Product Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="4a3a4c94-1609-4c78-9419-5e7653464dc0">
+      <ID>Production</ID>
+      <Name>Production</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7df9a37e-e413-4c4e-b0a4-03ea42e81074">
+          <ID>Production Count</ID>
+          <Name>Production Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="91179b5f-b539-490f-bc52-86be84d179db">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b351d70e-c5c3-42e0-9c41-756f517db78a">
+              <TableID>dbo_Production</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="83b4156a-de88-41e4-b39b-4dd11e4e89e9">
+          <CubeDimensionID>State</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a5c0d0a2-5fc4-48ea-a0e2-8faf9b0d508a">
+              <AttributeID>p Production ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="59592455-c204-4261-9b84-67eff6ead6e8">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d496de92-0e03-41f7-8780-5b6a0004bce1">
+                    <TableID>dbo_Production</TableID>
+                    <ColumnID>pProductionID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6d622122-b33f-457d-9627-182e8b2a1ac9">
+          <CubeDimensionID>Reason</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="86c95402-776e-4796-9d21-ded28c08e410">
+              <AttributeID>p Production ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="991cc406-3117-47fc-ae14-6837bd5427d4">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b5766ce1-10b0-4a19-81d9-959ab0cc594d">
+                    <TableID>dbo_Production</TableID>
+                    <ColumnID>pProductionID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6df7aaeb-6744-44b0-8096-4fcbb00b5988">
+          <CubeDimensionID>Work Area</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9ac93601-916c-4c6f-a74f-5c8470728ff3">
+              <AttributeID>p Production ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="168b69f6-73ed-473b-af2d-3487c08eef2e">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="edd861f1-22f6-4a11-8a73-39021a78decd">
+                    <TableID>dbo_Production</TableID>
+                    <ColumnID>pProductionID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b34ce4dc-9571-480b-91ca-8ce7cf36a733">
+          <CubeDimensionID>Line</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b046ce83-0064-461d-a119-05eb776c3d33">
+              <AttributeID>p Production ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0b8716c9-0850-450f-aedf-8f69e184236d">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09b9ce48-6eb7-4ebb-8f9b-05855139cc62">
+                    <TableID>dbo_Production</TableID>
+                    <ColumnID>pProductionID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dbe4c293-3673-48fc-b2be-5d26f9e2e175">
+          <CubeDimensionID>Product Description</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="add34b95-1277-43a3-b168-b630100f8ddb">
+              <AttributeID>p Product ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="077d82ad-688e-4e59-b0a8-75b0cbe95220">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ffc98d8b-7875-469a-a57d-e3a16f853d7c">
+                    <TableID>dbo_Production</TableID>
+                    <ColumnID>pProductID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ae2e5dbd-d63a-45fd-bcdc-e92c6328db76">
+    <DataSourceViewID>Yoyo Production</DataSourceViewID>
+  </Source>
+</Cube>

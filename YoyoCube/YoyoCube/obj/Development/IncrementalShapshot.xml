@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>yoyoCube</Database>
+    <Server>2A314-D04\MSSQL2016</Server>
+    <ConnectionString>Data Source=2A314-D04\MSSQL2016;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9iMp1TIKFrvJqHZFaNwYGt3spGw=10/31/2017 1:22:24 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>Yo Yo DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>0ThsTenAKD7dA5B6nTJkqPGKK2E=10/31/2017 1:22:48 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>Yo Yo DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+AemYZQsnv1MN4wp8ERfz1wm0ro=10/31/2017 1:23:13 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>Product Description</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lwcGUuinOMuRLkn+OtD0cD/5vCQ=10/31/2017 1:23:36 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>State</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3TVOurglKENU3LaRMPVXtINAbZ0=10/31/2017 1:24:03 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>Reason</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nU8f+6yFnLQ1p8N6zasFLkkTmj4=10/31/2017 1:24:23 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>Workarea</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YtCDd9Y3Hty0kO03/5i6oISQyZs=10/31/2017 1:24:44 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>Line</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>/sgOOePMFagf4R8u4sLlkwXL8A8=10/31/2017 1:25:08 PM11/1/2017 1:41:37 PMZhhcId0sLt03qOkDAvnHx8gNasY=10/31/2017 1:25:08 PM11/1/2017 1:41:37 PM</TimeStamp>
+        <ID>
+          <String>Yo Yo DB</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>2Ip7arOWBBMbjPVaVIIJ9jAT0wU=10/31/2017 1:21:27 PM11/1/2017 1:41:37 PM</TimeStamp>
+      <ID>
+        <String>yoyoCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-11-01T17:49:39.73Z</LastDeployed>
+</DeploymentSnapshot>
